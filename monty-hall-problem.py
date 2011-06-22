@@ -46,12 +46,13 @@ def choose(do_change):
         return False
 
 def experiment(number_of_runs):
-    # zuerst mit immer do_change
+    # first: player always changes the first choice
     won_with_always_changing = 0.0
     for i in range(number_of_runs):
         if choose(True):
             won_with_always_changing += 1.0
 
+    # second: player sticks with the first choice
     won_without_changing = 0.0
     for i in range(number_of_runs):
         if choose(False):
