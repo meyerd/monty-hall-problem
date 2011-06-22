@@ -1,0 +1,10 @@
+Monty-Hall-Problem
+==================
+
+(German: Ziegenproblem, Drei-Türen-Problem, Monty-Hall-Problem, Monty-Hall-Dilemma)
+
+This is a small python experimental implementation of the Monty-Hall-Problem. It was
+implemented because I couldn't believe the math and probability. But I guess math once
+more proved right here ...
+
+More information on the problem itself: http://en.wikipedia.org/wiki/Monty_Hall_problem.
