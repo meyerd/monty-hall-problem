@@ -60,6 +60,6 @@ def experiment(number_of_runs):
 
     print "number of experiments: ", number_of_runs
     print "won with always changing: %i, %s%%" % (won_with_always_changing, str(won_with_always_changing/number_of_runs))
-    print "won without chaning: %i, %s%%" % (won_without_changing, str(won_without_changing/number_of_runs))
+    print "won without changing: %i, %s%%" % (won_without_changing, str(won_without_changing/number_of_runs))
 
 experiment(100000)
